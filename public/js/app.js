@@ -1,0 +1,1 @@
+angular.module('starterWebApp', ['ngRoute', 'appRoutes', 'FrontPageController', 'SubPageController', 'SubPageService']);
