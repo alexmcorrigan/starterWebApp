@@ -5,4 +5,4 @@
 2. Install the npm modules: npm install
 3. Install the bower components: bower install
 4. Start the server: node ./bin/www
-5. Visit the application in your browser at http://localhost:8080
+5. Visit the application in browser at http://localhost:3000

@@ -13,8 +13,6 @@ var app = express();
 
 var db = require('./config/db');
 
-var port = process.env.PORT || 8000;
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
@@ -30,8 +28,5 @@ app.use(methodOverride('X-HTTP-Method-Override'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 require('./app/routes')(app);
-
-app.listen(port);
-console.log('Magic happening on port: ' + port);
 
 exports = module.exports = app;
